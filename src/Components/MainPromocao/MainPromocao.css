@@ -1,0 +1,10 @@
+
+.font-config {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tela-promocao {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}

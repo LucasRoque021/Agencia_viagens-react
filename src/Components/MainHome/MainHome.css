@@ -1,0 +1,27 @@
+
+.info-cards {
+  background-color: #f2eb85e2;
+  box-shadow: 0px 0px 8px 2px #000000;
+  border-radius: 10px;
+}
+
+#mapa-brasil{
+  width:80px;
+}
+
+#onibus {
+  width: 160px;
+}
+
+@media (max-width: 800px) {
+  
+
+  #mapa-brasil {
+    width: 60px;
+  }
+
+  #onibus {
+    width: 120px;
+  }
+
+}

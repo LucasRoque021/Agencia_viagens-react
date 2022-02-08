@@ -1,0 +1,18 @@
+
+.font-config {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.btn-cadastro {
+  text-decoration: none;
+  background: #010440;
+  color: #f2f0d8;
+  font-weight: normal;
+  border-radius: 10px;
+  margin: 3px;   
+}
+
+.btn-cadastro:hover {
+  color: #F2EB85;
+  background: #0A0E59;
+}
