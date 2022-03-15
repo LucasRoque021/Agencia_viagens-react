@@ -19,7 +19,7 @@ export default (props) => {
 
           <div className="container text-center">
             <div className="row justify-content-around">
-              <div className="info-cards col-12 col-sm-5 mb-4">
+              <div className="info-cards col-10 col-sm-5 mb-4">
                   <h5>Passagens para o Brasil inteiro</h5>
                   <div>
                       <img id="mapa-brasil" src={props.mapa} alt="Mapa do Brasil"/>
@@ -30,7 +30,7 @@ export default (props) => {
                       </ul>
                   </div>
               </div>
-              <div className="info-cards col-12 col-sm-5 mb-4">
+              <div className="info-cards col-10 col-sm-5 mb-4">
                   <h5>Nossos ônibus</h5>
                   <div>
                       <img id="onibus" src={props.bus} alt="Ônibus" />

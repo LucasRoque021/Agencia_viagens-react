@@ -5,9 +5,9 @@ import bus from "../../assets/img/bus.png"
 
 export default () =>{
   return(
-    <main className="pb-3 mt-3">
+    <main>
         <section className="container-fluid mb-2 text-center">
-          <h1 className="font-config">Promoções</h1>
+          <h1 className="font-config pt-3">Promoções</h1>
         </section>
         <div className="tela-promocao">
           <CardPromocao destino = {"Campos"} fotoPromocao={bus}/>
