@@ -1,0 +1,40 @@
+.section-contatos{
+  display: flex;
+  justify-content: center;
+}
+
+form{
+  width: 50%;
+  padding: 10px;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+}
+
+form label{
+  font-weight: 700;
+}
+
+.btn-form-contato{
+  border-radius: 10px;
+  background: #010440;
+  color: #f2f0d8;
+  border-radius: 10px;
+}
+
+.btn-form-contato:hover {
+  color: #F2EB85;
+  background: #0A0E59;
+}
+
+@media (max-width: 425px){
+  .btn-form-contato{
+    width: 90%;
+  }
+
+  form{
+    width: 80%;
+  }
+ 
+}
+

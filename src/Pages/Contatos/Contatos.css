@@ -8,3 +8,8 @@ body {
 .font-config {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
+.bg-contatos{
+  background: url(../../assets/img/foto_estrada.png) center no-repeat;
+  background-size: cover;
+}

@@ -12,9 +12,9 @@ export default () =>{
       <Navbar foto={logoviagem}/>
       <main className="bg-promocao">
 
-      <MainPromocao/>
+        <MainPromocao/>
 
-      <Footer fotoCartoes={cartoes}/>
+        <Footer fotoCartoes={cartoes}/>
       </main>
     </>
   );

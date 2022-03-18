@@ -3,7 +3,8 @@
 }
 
 #onibus {
-  width: 160px;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .card-promocao {
@@ -76,7 +77,5 @@
     font-size: 20px;
   }
 
-  #onibus {
-    width: 120px;
-  }
+  
 }

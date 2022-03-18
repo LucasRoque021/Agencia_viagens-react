@@ -10,10 +10,12 @@ export default () => {
   return(
     <>
       <Navbar foto={logoviagem}/>
+      <main className="bg-contatos">
 
-      <MainContatos/>
+        <MainContatos/>
 
-      <Footer fotoCartoes={cartoes}/>
+        <Footer fotoCartoes={cartoes}/>
+      </main>
     </>
   );
 }
