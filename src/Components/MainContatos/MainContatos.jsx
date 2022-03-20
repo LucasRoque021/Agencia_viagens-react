@@ -1,8 +1,7 @@
 import React, { useRef } from "react";
 import './MainContatos.css';
-import TituloCadastro from "../TituloCadastro/TituloCadastro";
-import TabelaContatos from "./TabelaContatos/TabelaContatos";
-import api from "../../api";
+
+import { postContato } from "../../service/ContatoService";
 
 
 
@@ -15,10 +14,11 @@ export default () => {
 
   function enviarMensagem(event){
     event.preventDefault()
-    api.post("/contatos", {email: email.current.value,
+    const contato = {email: email.current.value,
     nome: nome.current.value,
     assunto: assunto.current.value,
-    mensagem: mensagem.current.value}).then(() => window.location.reload()).catch((err) => console.log(err))
+    mensagem: mensagem.current.value}
+    postContato(contato).then(() => window.location.reload()).catch((err) => console.log(err))
     alert("Mensagem enviada!")
   }
 
@@ -28,7 +28,7 @@ export default () => {
 
         <section className="container mt-3 section-contatos">
 
-          <form onSubmit={enviarMensagem}>
+          <form className="form-contato" onSubmit={enviarMensagem}>
             <div className="form-group">
               <label for="nome">Seu nome:</label>
               <input type="text" className="form-control" id="nome" placeholder="digite seu nome" maxLength={50} required ref={nome}/>

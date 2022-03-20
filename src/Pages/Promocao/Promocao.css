@@ -1,4 +1,6 @@
 .bg-promocao{
   background: url(../../assets/img/foto_estrada.png) center no-repeat;
   background-size: cover;
+  min-height: 100vh;
+  
 }

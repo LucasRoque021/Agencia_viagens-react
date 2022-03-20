@@ -3,7 +3,7 @@ import { useState } from "react";
 import './CardPromocao.css';
 
 
-export default(props) => {
+function CardPromocao(props){
     
     const [num, setNum] = useState(1)
 
@@ -17,12 +17,12 @@ export default(props) => {
 
       <section className="card-promocao font-config">
         <div className="foto-promocao">
-          <img id="onibus" src= {props.fotoPromocao} alt="Foto da promoção" />
+          <img class="img-promocao" src= {props.fotoPromocao} alt="Foto da promoção" />
         </div>
         <section>
 
           <h3 className="text-center mt-2">{props.destino}</h3>
-          <p>Data de embarque: {props.dataEmbarque}</p>
+          <p>Data de embarque: {props.dataEmbarque.replace('T', ' ')}</p>
           <p>Local de embarque: {props.localEmbarque}</p>
         </section>
         <section className="qtdPassagem">
@@ -45,3 +45,5 @@ export default(props) => {
     
   );
 }
+
+export default CardPromocao

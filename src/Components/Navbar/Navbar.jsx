@@ -3,7 +3,12 @@ import './Navbar.css';
 import {Link} from "react-router-dom";
 
 
-export default (props) => {
+
+
+function Navbar(props) {
+  
+ 
+
   return(
     <header>
         <nav className="navbar navbar-expand-md p-1 navbar-dark">
@@ -37,6 +42,11 @@ export default (props) => {
                     <a className="nav-link">CONTATOS</a>
                   </Link>
                 </li>
+                <li className="nav-item active mr-1">
+                  <Link to="/Cadastro">
+                    <a className="nav-link">CADASTRO</a>
+                  </Link>
+                </li>
             </ul>
 
           </div>
@@ -44,3 +54,5 @@ export default (props) => {
     </header>
   );
 }
+
+export default Navbar

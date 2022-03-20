@@ -1,0 +1,34 @@
+body {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  background-color: #f2f0d8;
+}
+
+.font-config {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container-cadastro{
+  background: url(../../assets/img/foto_estrada.png) center no-repeat;
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-cadastro button {
+  width: 300px;
+  cursor: pointer;
+  background: #010440;
+  color: #f2f0d8;
+  border-radius: 10px;
+  margin: 15px;   
+}
+
+.container-cadastro button:hover {
+  color: #F2EB85;
+  background: #0A0E59;
+}

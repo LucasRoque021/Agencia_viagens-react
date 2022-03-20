@@ -6,6 +6,11 @@
   width: 80%;
   box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.6);
   border-radius: 10px;
+  transition: all ease-in-out .3s;
+}
+
+.card-destino img:hover {
+  width: 82%;
 }
 
 .card-destino {
@@ -18,12 +23,9 @@
   transition: all ease-in-out 0.5s;
 }
 
-.card-destino:hover {
-  width: 82%;
-}
 
 @media (max-width: 767px) {
-  .destino-foto {
+  .destino-foto a {
     display: flex;
     justify-content: center;
     margin-bottom: 5px;
